@@ -3,10 +3,10 @@ library(tidyverse)
 library(rvest)
 
 #Set up Twitter API-Tokens 
-consumerKey <- "JPPKToCHmmzFFoCSSFanB1KOI"
-consumerSecret <- "3su6Bwz4xD2nrBK3hoagj5fhB2Cq10E9ExRqj6hnCkVUwIaTfs"
-accessToken <-  "1357301412892463113-UyKJsdXdnSQIFGXaj6TCaIwW7ETUbh"
-accessTokenSecret <- "4e61HVsE7YBRMiQfalyvYlhrG0E8y9tXRK9rFtWBdFbpK"
+consumerKey <- ""
+consumerSecret <- ""
+accessToken <-  ""
+accessTokenSecret <- ""
 setup_twitter_oauth(consumer_key = consumerKey,consumer_secret = consumerSecret,access_token = accessToken,access_secret = accessTokenSecret)
 
 #Scrape the german impfdashboard
